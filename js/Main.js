@@ -4,7 +4,7 @@ function GetData(form) {
     var RealName = MojangData.name;
     var uuid = MojangData.uuid;
 
-    WynncraftData = WynncraftAPI(RealName, uuid);
-    //console.log(MojangData);
-    console.log(WynncraftData);
+    //WynncraftData = WynncraftAPI(RealName, uuid);
+    console.log(MojangData);
+    //console.log(WynncraftData);
 }

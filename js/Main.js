@@ -6,5 +6,8 @@ function GetData(form) {
 
     //WynncraftData = WynncraftAPI(RealName, uuid);
     console.log(MojangData);
+
+    document.getElementById("name").innerHTML = RealName;
+    document.getElementById("uuid").innerHTML = uuid;
     //console.log(WynncraftData);
 }
